@@ -1,8 +1,4 @@
 # AI-powered-data-querying
-AI-powered tool to translate natural language queries into actionable SQL and deliver user-friendly results. (App Link expires on Dec 5, 2024)
-
-
-    https://sql-talk-ai-csv-280048506091.us-central1.run.app/
 
 📖 Overview
 
@@ -10,7 +6,8 @@ This app demonstrates the power of Gemini's Function Calling capabilities, enabl
 
 Function Calling in Gemini lets developers create a description of a function in their code, then pass that description to a language model in a request. The response from the model includes the name of a function that matches the description and the arguments to call it with.
 
-Try using the demo app now! https://sql-talk-ai-csv-280048506091.us-central1.run.app/
+Try using the demo app now! (App Link expires on Dec 5, 2024)
+ https://sql-talk-ai-csv-280048506091.us-central1.run.app/
 
 ![Screenshot 2024-11-25 at 11 11 02 AM](https://github.com/user-attachments/assets/0eedc0d1-7fc6-42fd-be60-8f93d864db31)
 
