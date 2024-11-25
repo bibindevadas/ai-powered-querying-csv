@@ -11,11 +11,6 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 
 ![Screenshot 2024-11-25 at 11 11 02 AM](https://github.com/user-attachments/assets/0eedc0d1-7fc6-42fd-be60-8f93d864db31)
 
-<video controls>
-  <source src="./streamlit-app-2024-11-21-02-11-49.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
-
 # Key features include:
 
 1. Function calling to handle queries.
@@ -31,10 +26,11 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 # 🚀 Getting Started
 Prerequisites
 
-1. Google Cloud account.
-2. Vertex AI, Cloud Run, and BigQuery enabled in your Google Cloud project.
-3. Python (3.8 or above).
-4. Basic knowledge of SQL, Vertex AI, Streamlit, and Cloud Run.
+1. A Google Cloud project with billing enabled
+2. A BigQuery dataset (used synthetic data airline_bookings data, created using faker library)
+3. APIs for Vertex AI, BigQuery, BigQuery Data Transfer, and Cloud Run enabled
+4. Python (3.8 or above).
+5. Familiarity with Python and SQL concepts
 
 # Deploy to Cloud Run
 
