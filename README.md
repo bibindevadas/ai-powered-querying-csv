@@ -11,7 +11,8 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 
 ![Screenshot 2024-11-25 at 11 11 02 AM](https://github.com/user-attachments/assets/0eedc0d1-7fc6-42fd-be60-8f93d864db31)
 
-[Watch the video](./streamlit-app-2024-11-21-02-11-49.mp4.mp4)
+[Watch the video](./streamlit-app-2024-11-21-02-11-49.webm)
+
 
 
 # Key features include:
