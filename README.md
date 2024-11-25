@@ -1,6 +1,6 @@
 # AI-powered-data-querying
 AI-powered tool to translate natural language queries into actionable SQL and deliver user-friendly results
-https://sql-talk-ai-csv-280048506091.us-central1.run.app/ (Expires on Dec 5, 2024)
+    https://sql-talk-ai-csv-280048506091.us-central1.run.app/ (Expires on Dec 5, 2024)
 
 
 📖 Overview
