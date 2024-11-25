@@ -101,6 +101,11 @@ The Streamlit frontend provides an intuitive user interface for:
     2. Visualizing summarized data in real time.
     3. Customizing prompts and queries to suit business needs.
 
+References:
+
+https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/function-calling
+
+
 
 
 
