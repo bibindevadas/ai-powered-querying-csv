@@ -11,17 +11,12 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 
 ![Screenshot 2024-11-25 at 11 11 02 AM](https://github.com/user-attachments/assets/0eedc0d1-7fc6-42fd-be60-8f93d864db31)
 
-# Key features include:
+# 🎯 Key features include:
 
 1. Function calling to handle queries.
 2. Generative AI for intuitive data summarization.
 3. Integration with Vertex AI for seamless processing.
 
-# 🎯 Features
-
-1. Query Tabular Data: Use natural language to perform SQL-like queries.
-2. Generative Summarization: Summarize datasets with simple prompts.
-3. Customizable Workflow: Extend the querying logic for specific datasets and use cases.
 
 # 🚀 Getting Started
 Prerequisites
