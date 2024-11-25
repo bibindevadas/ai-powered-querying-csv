@@ -32,26 +32,26 @@ Setup Instructions
 
 1. Clone the Repository
 
-    git clone https://github.com/yourusername/ai-powered-data-querying.git
-    cd ai-powered-data-querying
+        git clone https://github.com/yourusername/ai-powered-data-querying.git
+        cd ai-powered-data-querying
 
 2. Install Dependencies
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 3. Set Up Google Cloud Authentication
 
 Download your service account key from the Google Cloud Console.
 Set the GOOGLE_APPLICATION_CREDENTIALS environment variable:
 
-    export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-key.json"
+        export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-key.json"
 
 4. Connect to BigQuery
 
 Ensure your dataset is uploaded to BigQuery. You can create a new dataset and table using the BigQuery console or CLI:
 
-    bq mk --dataset <PROJECT_ID>:<DATASET_NAME>
-    bq load --source_format=CSV <PROJECT_ID>:<DATASET_NAME>.<TABLE_NAME> path/to/your-data.csv
+        bq mk --dataset <PROJECT_ID>:<DATASET_NAME>
+        bq load --source_format=CSV <PROJECT_ID>:<DATASET_NAME>.<TABLE_NAME> path/to/your-data.csv
 
 5. Prepare for Deployment
 
@@ -81,11 +81,11 @@ Build the Docker image:
 
 Deploy to Cloud Run:
 
-    gcloud run deploy ai-powered-data-querying \
-      --image gcr.io/<PROJECT_ID>/ai-powered-data-querying \
-      --platform managed \
-      --region <REGION> \
-      --allow-unauthenticated
+        gcloud run deploy ai-powered-data-querying \
+          --image gcr.io/<PROJECT_ID>/ai-powered-data-querying \
+          --platform managed \
+          --region <REGION> \
+          --allow-unauthenticated
 
 7. Access the Application
 
