@@ -19,7 +19,8 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 
 
 # 🚀 Getting Started
-Prerequisites
+
+**Prerequisites**
 
 1. A Google Cloud project with billing enabled
 2. A BigQuery dataset (used synthetic data (airlinebookings), created using faker library)
