@@ -1,6 +1,6 @@
 # AI-powered-data-querying
 
-📖 Overview
+📖 **Overview**
 
 This app demonstrates the power of Gemini's Function Calling capabilities, enabling users to query and understand their BigQuery databases using natural language. Forget complex SQL syntax – interact with your data conversationally.
 
@@ -23,7 +23,7 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 **Prerequisites**
 
 1. A Google Cloud project with billing enabled
-2. A BigQuery dataset (used synthetic data (airlinebookings), created using faker library)
+2. A BigQuery dataset (used **synthetic** Airline bookings data created using faker library)
 3. APIs for Vertex AI, BigQuery, BigQuery Data Transfer, and Cloud Run enabled
 4. Python (3.8 or above).
 5. Familiarity with Python and SQL concepts
