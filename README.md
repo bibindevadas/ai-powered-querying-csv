@@ -32,12 +32,6 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 
 Ensure you have Docker installed and authenticated with Google Cloud:
 
-    gcloud auth configure-docker
-
-Build the Docker image:
-
-    gcloud builds submit --tag gcr.io/<PROJECT_ID>/ai-powered-data-querying
-
 When deploying this app to Cloud Run, a best practice is to create a service account to attach the following roles to, which are the permissions required for the app to read data from BigQuery, run BigQuery jobs, and use resources in Vertex AI:
 
 1. BigQuery Data Viewer (roles/bigquery.dataViewer)
