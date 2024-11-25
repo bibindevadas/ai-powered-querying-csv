@@ -1,8 +1,8 @@
 # AI-powered-data-querying
-AI-powered tool to translate natural language queries into actionable SQL and deliver user-friendly results.
+AI-powered tool to translate natural language queries into actionable SQL and deliver user-friendly results. (App Link expires on Dec 5, 2024)
 
-    https://sql-talk-ai-csv-280048506091.us-central1.run.app/ (Expires on Dec 5, 2024)
 
+    https://sql-talk-ai-csv-280048506091.us-central1.run.app/ 
 
 📖 Overview
 
@@ -10,39 +10,39 @@ This project demonstrates how to leverage Vertex AI for querying tabular dataset
 
 Key features include:
 
-    Function calling to handle queries.
-    Generative AI for intuitive data summarization.
-    Integration with Vertex AI for seamless processing.
+    1. Function calling to handle queries.
+    2. Generative AI for intuitive data summarization.
+    3. Integration with Vertex AI for seamless processing.
 
 🎯 Features
 
-    Query Tabular Data: Use natural language to perform SQL-like queries.
-    Generative Summarization: Summarize datasets with simple prompts.
-    Customizable Workflow: Extend the querying logic for specific datasets and use cases.
+    1. Query Tabular Data: Use natural language to perform SQL-like queries.
+    2. Generative Summarization: Summarize datasets with simple prompts.
+    3. Customizable Workflow: Extend the querying logic for specific datasets and use cases.
 
 🚀 Getting Started
 Prerequisites
 
-    Google Cloud account.
-    Vertex AI, Cloud Run, and BigQuery enabled in your Google Cloud project.
-    Python (3.8 or above).
-    Basic knowledge of SQL, Vertex AI, Streamlit, and Cloud Run.
+    1. Google Cloud account.
+    2. Vertex AI, Cloud Run, and BigQuery enabled in your Google Cloud project.
+    3. Python (3.8 or above).
+    4. Basic knowledge of SQL, Vertex AI, Streamlit, and Cloud Run.
 
 Setup Instructions
 
 1. Clone the Repository
 
-git clone https://github.com/yourusername/ai-powered-data-querying.git
-cd ai-powered-data-querying
+    git clone https://github.com/yourusername/ai-powered-data-querying.git
+    cd ai-powered-data-querying
 
 2. Install Dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3. Set Up Google Cloud Authentication
 
-    Download your service account key from the Google Cloud Console.
-    Set the GOOGLE_APPLICATION_CREDENTIALS environment variable:
+Download your service account key from the Google Cloud Console.
+Set the GOOGLE_APPLICATION_CREDENTIALS environment variable:
 
     export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-key.json"
 
@@ -50,22 +50,22 @@ pip install -r requirements.txt
 
 Ensure your dataset is uploaded to BigQuery. You can create a new dataset and table using the BigQuery console or CLI:
 
-bq mk --dataset <PROJECT_ID>:<DATASET_NAME>
-bq load --source_format=CSV <PROJECT_ID>:<DATASET_NAME>.<TABLE_NAME> path/to/your-data.csv
+    bq mk --dataset <PROJECT_ID>:<DATASET_NAME>
+    bq load --source_format=CSV <PROJECT_ID>:<DATASET_NAME>.<TABLE_NAME> path/to/your-data.csv
 
 5. Prepare for Deployment
 
-    Update the Dockerfile to include both the backend (querying logic) and Streamlit frontend:
+Update the Dockerfile to include both the backend (querying logic) and Streamlit frontend:
 
-    FROM python:3.8-slim
-
-    WORKDIR /app
-
-    COPY . /app
-
-    RUN pip install -r requirements.txt
-
-    CMD ["streamlit", "run", "src/frontend.py", "--server.port=8080", "--server.enableCORS=false"]
+        FROM python:3.8-slim
+    
+        WORKDIR /app
+    
+        COPY . /app
+    
+        RUN pip install -r requirements.txt
+    
+        CMD ["streamlit", "run", "src/frontend.py", "--server.port=8080", "--server.enableCORS=false"]
 
 
 
@@ -97,8 +97,8 @@ Deploy to Cloud Run:
 
 The Streamlit frontend provides an intuitive user interface for:
 
-    Querying BigQuery datasets with natural language.
-    Visualizing summarized data in real time.
-    Customizing prompts and queries to suit business needs.
+    1. Querying BigQuery datasets with natural language.
+    2. Visualizing summarized data in real time.
+    3. Customizing prompts and queries to suit business needs.
 
 
