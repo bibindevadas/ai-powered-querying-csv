@@ -27,7 +27,7 @@ Try using the demo app now! (App Link expires on Dec 5, 2024)
 Prerequisites
 
 1. A Google Cloud project with billing enabled
-2. A BigQuery dataset (used synthetic data airline_bookings data, created using faker library)
+2. A BigQuery dataset (used synthetic data (airlinebookings), created using faker library)
 3. APIs for Vertex AI, BigQuery, BigQuery Data Transfer, and Cloud Run enabled
 4. Python (3.8 or above).
 5. Familiarity with Python and SQL concepts
