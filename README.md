@@ -48,15 +48,8 @@ After deployment, you’ll receive a URL for the application. Open the URL to in
 
 https://sql-talk-ai-csv-280048506091.us-central1.run.app/
 
-# 🧩 Frontend (Streamlit)
 
-The Streamlit frontend provides an intuitive user interface for:
-
-1. Querying BigQuery datasets with natural language.
-2. Visualizing summarized data in real time.
-3. Customizing prompts and queries to suit business needs.
-
-References:
+**References:**
 
 https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/function-calling
 
